@@ -1,0 +1,21 @@
+{
+  "name": "server-iuran-perumahan",
+  "version": "1.0.0",
+  "description": " server Aplikasi iuran perumahan",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bagus addin prabowo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4"
+  }
+}
